@@ -26,8 +26,9 @@
     "interface": "str",
     "allow_hosts": ["str"]
   },
+  "devices": ["/dev/sda2:/dev/sda2:rwm"],
+  "privileged": ["SYS_ADMIN"]
+},
   "image": "homeassistant/{arch}-addon-samba"
 },
-"devices": ["/dev/sda2:/dev/sda2:rwm"],
-  "privileged": ["SYS_ADMIN"]
 }
